@@ -1,0 +1,35 @@
+[project]
+name = "omnivore-to-anki"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "faster-whisper>=1.0.2",
+    "genanki>=0.13.0",
+    "httpx>=0.27.0",
+    "langchain-core>=0.2.0",
+    "langchain-openai>=0.1.7",
+    "langgraph>=0.1.0",
+    "mcp>=1.0.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.2.0",
+    "pypdf>=4.2.0",
+    "python-dotenv>=1.0.1",
+    "sqlalchemy>=2.0.0",
+    "youtube-transcript-api>=0.6.2",
+    "yt-dlp>=2024.5.27",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.4.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+filterwarnings = [
+    "ignore:'asyncio.iscoroutinefunction' is deprecated:DeprecationWarning",
+]

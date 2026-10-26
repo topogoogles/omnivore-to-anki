@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Project local artifacts
+data/cache/
+data/omnivore.db
+*.apkg
+*.mp3
+*.wav
+*.m4a
+.env
