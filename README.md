@@ -142,7 +142,7 @@ omnivore-to-anki/
 * **Python 3.11+**
 * **[uv](https://github.com/astral-sh/uv)** (fast Python package and environment manager)
 * **Perplexity API Key** (`PERPLEXITY_API_KEY`)
-* *(Optional)* **[Anki Desktop](https://apps.ankiweb.net/)** with the **[AnkiConnect](https://foosoft.net/projects/anki-connect/)** add-on (code `2055492159`) for live synchronization. If Anki Desktop is closed, the pipeline automatically falls back to generating standalone `.apkg` files.
+* *(Optional)* **[Anki Desktop](https://apps.ankiweb.net/)** with the **[AnkiConnect](https://git.sr.ht/~foosoft/anki-connect)** add-on (code `2055492159`) for live synchronization. If Anki Desktop is closed, the pipeline automatically falls back to generating standalone `.apkg` files.
 
 ### 1. Automated Setup (Windows PowerShell)
 Run the included PowerShell initialization script to scaffold the directory tree and install all dependencies via `uv`:
